@@ -1,6 +1,7 @@
 from django.db import models
 
 
+
 # === 1. HERO СЕКЦІЯ ===
 class Hero(models.Model):
     name = models.CharField(max_length=100, verbose_name="Ім’я")
